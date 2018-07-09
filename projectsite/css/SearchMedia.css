@@ -1,0 +1,80 @@
+  @media (min-width: 357px) and (max-width: 756px){ /*small screens */
+    .half1{left: 5%;width:30%}
+    .half1 span{font-size: 200%; padding-bottom: -20%}
+  .half1 span:last-of-type{font-size: 220% ; margin-top: -4%}
+  .half1 span img:first-child{margin-top: -5%;width: 22px;}
+  .half1 >img{width: 120px;}
+  .half2 label, .half2 a{font-size: 80%;padding-right: 0;margin-right: 0}
+  .half2{text-align: right; margin: 4% 3% 0; width: 64%}
+  .search .h2, .search .form-control{ display: inline; margin-bottom: 10px;}
+  .search .h2{padding: 5px; margin-top: 40px;font-size: 24px}
+  .results h4{font-size: 14px;padding:2px}
+  .table label{margin-left: 2px;font-size: 150%}
+  .results h2{font-size: 24px}
+  .search .form-control{width:260px;margin: 15px}
+  .results h4{padding:3px 2px 2px;font-size: 120%;margin-right: 30px}
+  .results img{display: block;position: relative;}
+  .btn-md{width:80px; font-size:20px;margin: 10px auto;padding: 8px 15px 10px 5px}
+  .results{height: 1450px}
+  .pages{top:1360px;}
+}
+@media (min-width: 757px) and (max-width: 991px) {
+  .half1 span{font-size: 240%; padding-bottom: -20%}
+  .half1 span:last-of-type{font-size: 280% ; margin-top: -4%}
+  .half1 span img:first-child{margin-top: -4%;width: 32px;}
+  .half1 >img{width: 180px;}
+  .half2 label, .half2 a{font-size: 80%;padding-right: 0;margin-right: 0}
+  .search .h2, .search .form-control{ display: inline; margin-bottom: 10px;}
+  .search .h2{padding: 5px; margin-top: 40px;font-size: 18px}
+  .results h4{font-size: 14px;padding:2px}
+  .table label{margin-left: 2px;font-size: 120%}
+  .results h2{font-size: 18px}
+  .search .form-control{width:230px;margin: 15px}
+  .results h4{padding:3px 2px 2px;color:#46c0e5;font-size: 120%}
+  .results img{display: block;position: relative;}
+  .btn-md{width:80px; font-size:16px;margin: 10px auto;padding: 8px 15px 10px 5px}
+  .results{height: 1450px}
+  .pages{top:1360px;}
+}
+@media (max-width: 356px){     /*mobiles & tablet*/
+  .back1, .overlay{
+  height: 750px;
+  }
+  .half1{left: 1%;
+  margin-top:40%;
+  text-align: left;
+width: 36%}
+  .half1 span{font-size: 175%; padding-bottom: -20%}
+  .half1 span:last-of-type{font-size: 200% ; margin-top: -4%}
+  .half1 span img:first-child{margin-top: -4%;width: 22px;}
+  .half1 >img{
+    width: 120px;
+      margin-top: -20%;
+      margin-bottom: -7%;
+  }
+  .half2{text-align: right; margin: 2% 0; width: 64%}
+  .half2 label, .half2 a{font-size: 50%;padding-right: 0;margin-right: 0}
+  .search .h2, .search .form-control{ display: inline; margin-bottom: 5px;}
+  .search .h2{color:#46c0e5; padding: 5px; margin-top: 40px;font-size: 12px}
+  .results{height: 1250px}.search{height: 1650px;}.empty{height: 1450px;}
+  .results h4{font-size: 14px;padding:2px}
+  .table{margin:10px 0 5px 0;position: relative;display: inline-block;width: 100%}
+  .table label{margin-left: 2px;font-size: 60%}
+  .results h2{font-size: 18px}
+  .search .form-control{width:120px;margin: 10px}
+.results h4{padding:3px 2px 2px;color:#46c0e5;font-size: 60%}
+.results img{display: block;position: relative;}
+  .pages{top:1150px;}
+  .btn-md{width:60px; font-size:16px;margin: 10px auto;padding: 10px 15px 10px 3px}
+}
+
+@media (min-width: 757px) and (max-width: 991px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (max-width: 1199.98px) {
+
+}

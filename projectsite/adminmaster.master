@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="adminmaster.master.cs" Inherits="adminmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .auto-style1 {
+            width: 100%;
+            height: 511px;
+        }
+        .auto-style3 {
+            height: 42px;
+        }
+        .auto-style2 {
+            width: 818px;
+        }
+        </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style3" colspan="2" style="text-align: center">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style3" colspan="2" style="text-align: center">
+                    <asp:Label ID="Label4" runat="server"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2" style="vertical-align:top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td style="vertical-align:top; text-align: center;">
+                    <br />
+                    <asp:Label ID="Label5" runat="server"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">المدن و المناطق </asp:LinkButton>
+                    <br />
+                    <br style="text-align: center" />
+                    <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">التخصصات </asp:LinkButton>
+                    <br />
+                    <br />
+                    <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">المستشفيات </asp:LinkButton>
+                    <br />
+                    <br />
+                    <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">الصيدليات </asp:LinkButton>
+                    <br />
+                    <br />
+                    <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">المراكز الطبية</asp:LinkButton>
+                    <br />
+                    <br />
+                    <asp:LinkButton ID="LinkButton6" runat="server">بنوك الدم</asp:LinkButton>
+                    <br />
+                    <br />
+                    <asp:LinkButton ID="LinkButton7" runat="server">العيادات</asp:LinkButton>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
